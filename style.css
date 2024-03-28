@@ -1,0 +1,424 @@
+body {
+    font-family: "The Girl Next Door", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #d8cabb;
+}
+
+.header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+}
+
+.companylogo {
+    width: 25%;
+    margin-bottom: 0px;
+}
+
+.companyname {
+    margin-top: -25px;
+}
+
+.topnavbar {
+    background-color:#23a4a5;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    padding: 10px;
+    position: relative;
+}
+
+li a, .dropdown-content a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropdown-content {
+    background-color: #23a4a5;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: color #f39131;;
+    min-width: 160px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-content a {
+    float: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f39131;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.mainnavbar {
+    font-size: 25px;
+}
+
+.homepageintro {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.travelplane {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.hpip {
+    font-weight: 600;
+    margin: 10px;
+    text-align: right;
+    background-color: #23a4a5;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.hpgtitle {
+    text-align: center;
+}
+
+.hpgip {
+    font-weight: 600;
+    padding-left: 20px;
+    text-align: center;
+    background-color: #23a4a5;
+    border-radius: 10px;
+}
+
+.hpgreeceintro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hpgimage {
+    border-radius: 10px;
+}
+
+.hpjtitle {
+    text-align: center;
+}
+
+.hpjip {
+    font-weight: 600;
+    padding-left: 20px;
+    text-align: center;
+    background-color: #23a4a5;
+    border-radius: 10px;
+}
+
+.hpjapanintro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hpjimage {
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.gdoimage1 {
+    width: 20%;
+    border-radius: 10px;
+}
+    
+.gdoimage2 {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.gdoimage3 {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.gdoimage4 {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.gdotext1, .gdotext2, .gdotext3, .gdotext4 {
+    font-weight: 600;
+    margin: 10px;
+    text-align: right;
+    background-color: #23a4a5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+}
+
+.gdotext5, .greecetgs{
+    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+    background-color: #23a4a5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+}
+
+.greecedo1, .greecedo3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.greecedo2, .greecedo4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.greecetgpc, .greecetglhs, .greecetghg, .greecetgpi {
+    font-weight: 600;
+    margin: 10px;
+    text-align: left;
+    font-size: large;
+    background-color: #23a4a5;
+    border-radius: 10px;
+}
+
+.gitinerarylist {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: #23a4a5;
+    
+}
+
+.gitineraryi {
+    font-weight: 600;
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.gitinerarylist:hover {
+    background-color: #f39131;
+}
+
+.gitinerarylist2 {
+    margin-right: 50px;
+}
+
+.greecettaa, .greececr{
+    font-weight: 600;
+    text-align: center;
+    background-color: #23a4a5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    margin-left: 50px;
+}
+
+.jdoimage1 {
+    width: 20%;
+    border-radius: 10px;
+}
+    
+.jdoimage2 {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.jdoimage3 {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.jdoimage4 {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.jdotext1, .jdotext2, .jdotext3, .jdotext4 {
+    font-weight: 600;
+    margin: 10px;
+    text-align: right;
+    background-color: #23a4a5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+}
+
+.jdotext5, .japantgs{
+    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+    background-color: #23a4a5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+}
+
+.japando1, .japando3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.japando2, .japando4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.japantgpc, .japantglhs, .japantghg, .japantgpi {
+    font-weight: 600;
+    margin: 10px;
+    text-align: left;
+    font-size: large;
+    background-color: #23a4a5;
+    border-radius: 10px;
+}
+
+.jitinerarylist {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: #23a4a5;
+    
+}
+
+.jitineraryi {
+    font-weight: 600;
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.jitinerarylist:hover {
+    background-color: #f39131;
+}
+
+.jitinerarylist2 {
+    margin-right: 50px;
+}
+
+.japanttaa, .japancr{
+    font-weight: 600;
+    text-align: center;
+    background-color: #23a4a5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    margin-left: 50px;
+}
+
+.mstext, .chtext, .aaai {
+    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+    background-color: #23a4a5;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+}
+
+.aaalist2 {
+    font-weight: 600;
+    margin: 10px;
+    text-align: left;
+    font-size: large;
+    background-color: #23a4a5;
+    border-radius: 10px;
+}
+
+.missionstatement {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.greececei1-3, .greececei7-10, .greecefi1-3, .greecefi8-10, .greecehmi1-3, .greecehmi8-10, .greecesai1-3, .greecesai7-8, .japansai1-3, .japansai7-8, .japanfi1-3, .japanfi7-9, .japanhmi1-3, .japanhmi7-9, .japancei1-3, .japancei7-9  {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.gcei1-3img, .gcei4-6img, .gcei7-10img, .gfi1-3img, .gfi4-7img, .gfi8-10img, .ghmi1-3img, .ghmi4-7img, .ghmi8-10img, .gsai1-3img, .gsai4-6img, .gsai7-8img, .jsai1-3img, .jsai4-6img, .jsai7-9img, .jfi1-3img, .jfi4-6img, .jfi7-9img, .jhmi1-3img, .jhmi4-6img, .jhmi7-9img, .jcei1-3img, .jcei4-6img, .jcei7-9img {
+    border-radius: 10px;
+}
+
+.gcei1-3, .gcei4-6, .gcei7-10, .gfi1-3, .gfi4-7, .gfi8-10, .ghmi1-3, .ghmi4-7, .ghmi8-10, .gsai1-3, .gsai4-6, .gsai7-8, .jsai1-3, .jsai4-6, .jsai7-9, .jfi1-3, .jfi4-6, .jfi7-9, .jhmi1-3, .jhmi4-6, .jhmi7-9, .jcei1-3, .jcei4-6, .jcei7-9 {
+    font-weight: 600;
+    margin: 10px;
+    text-align: left;
+    font-size: large;
+    background-color: #23a4a5;
+    border-radius: 10px;
+}
+
+.greececei4-6, .greecefi4-7, .greecehmi4-7, .greecesai4-6, .japansai4-6, .japanfi7-9, .japanhmi4-6, .japancei4-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
